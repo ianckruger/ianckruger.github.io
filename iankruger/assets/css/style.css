@@ -37,3 +37,30 @@ img {
     width: 100%;
 }
 
+/* Navbar*/
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color:white;
+}
+
+.navbar .nav-link:hover {
+    font-weight: 700;
+    text-transform: uppercase;
+    color:var(--color-brand);
+}
+
+
+@media (min-width:992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)), url(/iankruger/assets/images/background-image.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border:8px solid var(--color-brand)
+    }
+}
