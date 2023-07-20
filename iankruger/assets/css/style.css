@@ -55,12 +55,12 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)), url(/iankruger/assets/images/background-image.jpg);
+        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(/iankruger/assets/images/background-image.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .navbar-brand img {
-        border:8px solid var(--color-brand)
+        border: 8px solid var(--color-brand);
     }
 }
