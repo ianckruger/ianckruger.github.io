@@ -61,7 +61,7 @@ img {
 }
 
 .shadow-effect:hover{
-    box-shadow: -6px 6 0 0 var(--color-brand);
+    box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
 .iconbox{
@@ -148,7 +148,7 @@ img {
 
 }
 
-.link-custom:after{
+.link-custom::after{
     content: "";
     width: 0%;
     height: 2px;
