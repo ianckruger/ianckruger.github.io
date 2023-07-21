@@ -130,7 +130,12 @@ img {
     color: var(--color-base);
 }
 
-.btn-brand:hover,
+.btn-brand:hover {
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+
 .btn-brand:focus{
     background-color: var(--color-brand2);
     color: var(--color-base);
