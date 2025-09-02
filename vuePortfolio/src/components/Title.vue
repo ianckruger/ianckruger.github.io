@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="title">
         <h2>{{ title }}</h2>
         <div class="wrapper">
             <div class="text-wrapper"> {{  description }}</div>

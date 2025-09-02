@@ -1,9 +1,11 @@
 {
     "title": "About Me",
     "description": "This is the description",
-    "pres_title": "Who am I?",
-    "pres_position": "",
-    "pres_after": "",
+    "pres": {
+        "pres_title": "Who am I?",
+        "pres_position": "",
+        "pres_after": ""
+    },
     "photo": {
         "src": "myself.png",
         "alt": "A photo of me :)"
