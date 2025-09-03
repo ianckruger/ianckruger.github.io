@@ -14,8 +14,8 @@
                             <div class="col-md-7 mr-auto card-mobile">
                                 <Presentation :content="aboutData.pres"></Presentation>
                             </div>
-                            <div class="col-md-4 card-mobile">
-                            
+                            <div class="col-md-4 offset-md-1 card-mobile">
+                                <Card :links="aboutData.links" />
                             </div>
                         </div>
                     </div>
@@ -34,6 +34,8 @@
 import { ref, onMounted } from 'vue'
 import Title from '../components/Title.vue'
 import Photo from '../components/Photo.vue'
+import Presentation from '../components/Presentation.vue'
+import Card from '../components/Card.vue'
 
 
 const aboutData = ref(null)
