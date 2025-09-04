@@ -30,7 +30,7 @@
         text-align: left;
     }
     .data { 
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         font-size: medium;
     }
 </style>

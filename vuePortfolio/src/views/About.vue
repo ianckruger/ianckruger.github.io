@@ -51,6 +51,9 @@ onMounted(async () => {
 <style>
     #about {
         background-color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+
     }
 
     @media (min-width: 768px) {

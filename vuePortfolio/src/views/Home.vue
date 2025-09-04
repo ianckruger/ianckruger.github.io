@@ -2,7 +2,7 @@
     <header class="header backimage">
         <div class="home">
             <div class="wrapper-name">
-                <h1 data-aos="fade-up"> Ian Kruger</h1>
+                <h1 data-aos="fade-up">Ian Kruger</h1>
                 <hr />
                 <p>Welcome to My Portfolio.</p>
             </div>
@@ -49,9 +49,7 @@
   }
 }
 
-.header{
-    padding: 20px;
-}
+
 
 .backimage {
     background-image: url(../assets/prism.png);
@@ -59,7 +57,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 101vh;
     width: 100%;
 }
 </style>

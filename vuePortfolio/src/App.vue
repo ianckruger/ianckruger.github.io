@@ -1,7 +1,8 @@
 <template>
   <div>
-  <div class="section"><Home /></div>
-  <div class="section"><About /></div>
+  <div class="section home-section"><Home /></div>
+  <div class="section about-section"><About /></div>
+  <div class="section"><Experience /></div>
   <div class="section"><Skills /></div>
   <div class="section"><Projects /></div>
   <div class="section"><Contact /></div>
@@ -19,6 +20,7 @@ import Skills from './views/Skills.vue';
 import Projects from './views/Projects.vue';
 import Home from './views/Home.vue';
 import Contact from './views/Contact.vue';
+import Experience from './views/Experience.vue'
 // create an on mounted for the scrolling animation and other visual stuff
 
 
@@ -30,6 +32,7 @@ onUpdated(() => {
 <style>
   html, body, #app {
     margin: 0;
+    padding: 0;
     height: 100%;
   }
 
@@ -37,7 +40,13 @@ onUpdated(() => {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
-    height: 100vh;
+   
+ 
   }
+
+  .about-section {
+    height: 60vh !important;
+  }
+
+
 </style>

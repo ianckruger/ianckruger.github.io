@@ -23,19 +23,20 @@
         text-align: center;
         color:darkslategrey;
         h2 {
-            font-size: 4rem;
+            font-size: 2rem;
             text-transform: uppercase;
         }
     }
 
     .text-wrapper {
         text-transform: uppercase;
+        font-size: 1.5rem;
         &:after {
             content: "";
             width: 150px;
             display: block;
             margin: 20px auto;
-            border-bottom: 1px solid darkslategray
+            border-bottom: 1px solid darkslategray;
         }
     }
 </style>

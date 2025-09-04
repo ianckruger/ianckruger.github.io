@@ -1,0 +1,18 @@
+{
+    "title": "Experience",
+    "description": "Academics and Career",
+    "education": [
+        {
+            "year": "2022-2026",
+            "title": "Bachelor's Degree of Science in Computer Science",
+            "content": "University of South Carolina, Deans honor list"
+        }
+    ],
+    "careers": [
+        {
+            "year": "2024-Present",
+            "title": "Software Developer",
+            "content": "BluecrossMobile - Description of your role"
+        }
+    ]
+}
