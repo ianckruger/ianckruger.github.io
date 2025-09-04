@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h3>
+        <h3 class="color-light">
         {{ title }}
         </h3>
         <div class="resume-item" v-for="(description, index) in descriptions" :key="index">
             <div class="year color-darker">{{ description.year }}</div>
-            <div class="resume-description">
+            <div class="resume-description color-light">
                 <strong v-html="description.title"> </strong>
             </div>
             <div class="color-darker" v-html="description.content"></div>
@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .resume-item {
-  margin-bottom: 25px;
+  margin-top: 25px;
   p {
     font-size: 1.5rem;
     margin-top: 0;
@@ -33,13 +33,13 @@ export default {
   }
   .year {
     font-weight: 600;
-    margin-bottom: 5px;
+   
   }
 }
 .color-light {
-  color: whitesmoke;
+  color: white;
 }
 .color-darker {
-  color:cadetblue;
+  color:rgb(204, 203, 203);
 }
 </style>

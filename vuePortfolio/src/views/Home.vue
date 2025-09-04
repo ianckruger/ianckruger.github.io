@@ -16,6 +16,10 @@
 
 <style scoped>
 
+.header {
+  padding: 20px;
+}
+
 .home {
   display: flex;
   justify-content: center;
@@ -28,6 +32,7 @@
   .wrapper-name {
     width: 400px;
   }
+  
 
   h1 {
     font-size: 2.3rem;
@@ -57,7 +62,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 101vh;
+    height: 104vh;
     width: 100%;
 }
 </style>

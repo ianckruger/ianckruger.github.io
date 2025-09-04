@@ -2,7 +2,7 @@
     <section id="about">
         <div v-if="aboutData">
             <div data-aos="fade-up">
-                <Title :title="aboutData.title" :description="aboutData.description"></Title>
+                <Title :title="aboutData.title" :description="aboutData.description" :whiteBar="false"/>
             </div>
             <div data-aos="fade-right">
                 <div class="section-content">
@@ -52,7 +52,7 @@ onMounted(async () => {
     #about {
         background-color: white;
         padding-top: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
 
     }
 

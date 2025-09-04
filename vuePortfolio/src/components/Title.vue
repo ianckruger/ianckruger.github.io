@@ -2,7 +2,7 @@
     <div class="title">
         <h2>{{ title }}</h2>
         <div class="wrapper">
-            <div class="text-wrapper"> {{  description }}</div>
+            <div class="text-wrapper" :class="{ 'white-bar': whiteBar }"> {{  description }}</div>
         </div>
     </div>
 </template>
@@ -13,7 +13,8 @@
         name: 'Title',
         props: [
             'title',
-            'description'
+            'description',
+            'whiteBar'
         ]
     }
 </script>
@@ -38,5 +39,9 @@
             margin: 20px auto;
             border-bottom: 1px solid darkslategray;
         }
+    }
+
+    .text-wrapper.white-bar:after {
+        border-bottom-color: whitesmoke;
     }
 </style>
