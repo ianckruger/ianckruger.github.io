@@ -16,10 +16,9 @@ import AOS from 'aos'
 
 // do all the imports after developing the components
 import About from './views/About.vue';
-import Skills from './views/Skills.vue';
 import Projects from './views/Projects.vue';
 import Home from './views/Home.vue';
-import Contact from './views/Contact.vue';
+import Footer from './views/Footer.vue';
 import Experience from './views/Experience.vue'
 // create an on mounted for the scrolling animation and other visual stuff
 
@@ -44,9 +43,15 @@ onUpdated(() => {
  
   }
 
-  .about-section {
-    height: 60vh !important;
-  }
+  .home-section {
+  height: 100vh;
+  padding: 0;
+}
 
+/* About has a smaller height */
+.about-section {
+  min-height: 50vh;   /* fills ~60% of viewport */
+  padding: 30px;    /* spacing inside */
+}
 
 </style>

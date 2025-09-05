@@ -62,7 +62,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 104vh;
+    height: 100vh;
     width: 100%;
 }
 </style>

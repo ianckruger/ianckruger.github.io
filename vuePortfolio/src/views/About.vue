@@ -51,8 +51,9 @@ onMounted(async () => {
 <style>
     #about {
         background-color: white;
-        padding-top: 30px;
-        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: 60vh;
 
     }
 

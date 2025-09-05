@@ -53,7 +53,7 @@ export default {
     #experience {
         background-color: #404040;
         width: 100%;
-        height: 100%;
+        min-height: 80vh;
         padding-top: 50px;
         padding-bottom: 50px;
     }
