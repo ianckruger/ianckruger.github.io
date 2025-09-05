@@ -8,9 +8,23 @@
         <div>
             <Timeline :value="data.projects" align="left" class="projects-timeline">
                 <template #opposite="slotProps">
-                
+                    
                 </template>
                 <template #content="slotProps">
+                    <Card>
+                        <template #title>
+                            {{  }}
+                        </template>
+                        <template #subtitle>
+                            {{  }}
+                        </template>
+                        <template #content>
+                            <img />
+                            <p>
+                                
+                            </p>
+                        </template>
+                    </Card>
                 </template>
             </Timeline>
         </div>
@@ -25,6 +39,7 @@
 import { ref, onMounted } from "vue"
 import Title from '../components/Title.vue'
 import Timeline from 'primevue/timeline'
+import { Card } from "primevue"
 
 export default {
     name: 'Projects',
