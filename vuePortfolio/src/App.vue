@@ -3,9 +3,8 @@
   <div class="section home-section"><Home /></div>
   <div class="section about-section"><About /></div>
   <div class="section"><Experience /></div>
-  <div class="section"><Skills /></div>
   <div class="section"><Projects /></div>
-  <div class="section"><Contact /></div>
+  <div class="section"><Footer /></div>
   </div>
 </template>
 
