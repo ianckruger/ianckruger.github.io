@@ -1,9 +1,9 @@
 <template>
     <section id="projects">
-    <div v-if="data">
-        <div data-aos="fade-down">
-            <Title class="title" :title="data.title" :description="data.description" :whiteBar="false"/>
-        </div>
+        <div v-if="data">
+            <div data-aos="fade-down">
+               <Title class="title" :title="data.title" :description="data.description" :whiteBar="false"/>
+            </div>
 
         <div>
             <Timeline :value="data.projects" align="left" class="projects-timeline">
@@ -63,5 +63,11 @@ export default {
 </script>
 
 <style>
+#projects {
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 </style>
