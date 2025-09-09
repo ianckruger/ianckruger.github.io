@@ -8,7 +8,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <Timeline :descriptions="data.education" :title="'Education'" class="col-12 col-md left"/>
-                        <Timeline :descriptions="data.career" :title="'Career'" class="col-12 col-md right"/>
+                        <Timeline :descriptions="data.careers" :title="'Career'" class="col-12 col-md right"/>
                     </div>
                 </div>
             </div>
