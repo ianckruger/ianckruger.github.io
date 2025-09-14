@@ -5,14 +5,34 @@
         {
             "year": "2022-2026",
             "title": "Bachelor's Degree of Science in Computer Science",
-            "content": "University of South Carolina, Deans honor list"
+            "content": "University of South Carolina, Deans Honor List"
         }
     ],
     "careers": [
         {
-            "year": "2024-Present",
-            "title": "Software Developer",
-            "content": "BluecrossMobile - Description of your role"
+            "year": "2025 May - August",
+            "title": "Mobile App Developer Intern",
+            "content": "BlueCross BlueShield of South Carolina - Description of your role"
+        },
+        {
+            "year": "2024 May - August",
+            "title": "Systems and Programming Intern",
+            "content": "BlueCross BlueShield of South Carolina - Description of your role"
+        },
+        {
+            "year": "2023 September - 2024 May",
+            "title": "Machine Learning Research Assistant",
+            "content": "University of South Carolina CEC - Description of your role"
+        },
+        {
+            "year": "2023 May - August",
+            "title": "Summer Technological Intern",
+            "content": "Launch Chapel Hill - Description of your role"
+        },
+        {
+            "year": "2022 August -Present",
+            "title": "Co-founder and Developer",
+            "content": "Magnolia Metrics, LLC - Description of your role"
         }
     ]
 }

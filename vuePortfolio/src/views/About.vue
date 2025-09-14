@@ -6,12 +6,12 @@
             </div>
             <div data-aos="fade-right">
                 <div class="section-content">
-                    <div class="container-fluid">
+                    <div>
                         <div class="row justify-content-center">
                             <Photo :user="aboutData.photo" class="col-auto"/>
                         </div>
                         <div class="row">
-                            <div class="col-md-7 mr-auto card-mobile">
+                            <div class="col-md-7 mr-auto card-mobile" id="presentation">
                                 <Presentation :content="aboutData.pres"></Presentation>
                             </div>
                             <div class="col-md-4 offset-md-1 card-mobile">
@@ -49,6 +49,13 @@ onMounted(async () => {
 </script>
 
 <style>
+
+
+    .section-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     #about {
         background-color: white;
         padding-top: 40px;
