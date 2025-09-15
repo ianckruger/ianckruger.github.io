@@ -2,17 +2,17 @@
     <div class="social-wrap">
         <ul>
             <li>
-                <a href="links.instagram" target="_blank">
+                <a href="{{ links.instagram }}" target="_blank">
                     <i class="bi bi-instagram" />
                 </a>
             </li>
             <li>
-                <a href="links.github" target="_blank">
+                <a href="{{ links.github }}" target="_blank">
                     <i class="bi bi-github" />
                 </a>
             </li>
             <li>
-                <a href="links.linkedin" target="_blank">
+                <a href="{{ links.linkedin }}" target="_blank">
                     <i class="bi bi-linkedin" />
                 </a>
             </li>
