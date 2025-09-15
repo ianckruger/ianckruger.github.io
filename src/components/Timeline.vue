@@ -8,6 +8,7 @@
             <div class="resume-description color-light">
                 <strong v-html="description.title"> </strong>
             </div>
+            <div class="color-darker" v-html="description.location"></div>
             <div class="color-darker" v-html="description.content"></div>
         </div>
     </div>

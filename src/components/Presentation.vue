@@ -6,7 +6,7 @@
         <div class="begin">
             {{ content.pres_position }}
         </div>
-        <p>
+        <p class="after">
             {{ content.pres_after }}
         </p>
     </div>
@@ -26,5 +26,10 @@
     }
     .begin {
         color: black;
+        padding-bottom: 10px;
+        border-bottom: 1px solid darkslategray;
+    }
+    .after {
+        padding-top: 10px;
     }
 </style>
