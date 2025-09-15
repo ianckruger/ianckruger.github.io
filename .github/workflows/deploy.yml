@@ -5,6 +5,11 @@ on:
     branches:
       - main  # deploy when you push to main branch
 
+permissions:
+  contents: write  # Allow writing to repository
+  pages: write     # Allow writing to GitHub Pages
+  id-token: write  # Allow writing ID tokens
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
