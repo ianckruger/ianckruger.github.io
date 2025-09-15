@@ -8,19 +8,19 @@
             "content": "<strong>University of South Carolina</strong>, Deans Honor List"
         },
         {
-            "year": "2023 May - August",
+            "year": "2023 May - 2023 August",
             "title": "Summer Technological Intern",
             "content": "<strong>Launch Chapel Hill Startup Accelorator</strong> - Through mentorship and workshops, I gained hands-on experience in pitching, market research, and product development. I developed a business plan and prototype for a startup focused on optimizing traffic flow through computer vision and machine learning techniques. Created a back-end density calculating algorithm to demonstrate the technology and its potential environmental impact on urban planning for local and state-level municipalities."
         }
     ],
     "careers": [
         {
-            "year": "2025 May - August",
+            "year": "2025 May - 2025 August",
             "title": "Mobile App Developer Intern",
             "content": "<strong>BlueCross BlueShield of South Carolina</strong> - Created an Internal Plugin for our Mobile App Development Team that utilizes Figma's tree node structure to generate custom Vue component code from Figma designs, allowing for a quick drag-and-drop workflow to create new screens in our app."
         },
         {
-            "year": "2024 May - August",
+            "year": "2024 May - 2024 August",
             "title": "Systems and Programming Intern",
             "content": "<strong>BlueCross BlueShield of South Carolina</strong> - Migrated and updated legacy internal web applications to modern frameworks and libraries, improving performance and user experience by utilizing new features like VueRouter, Vite, and Vuex."
         },
@@ -30,7 +30,7 @@
             "content": "<strong>University of South Carolina CEC</strong> - Contributed to the development of an Object Detection pipeline model by optimizing mask R-CNN architectures and line thinning techniques to improve accuracy of landscape analysis through thinner but continuous lines. Utilized Meta's 'Segment Anything' model to get better segmentation masks for the pipeline"
         },
         {
-            "year": "2022 August -Present",
+            "year": "2022 August - Present",
             "title": "Co-founder and Developer",
             "content": "<strong>Magnolia Metrics, LLC</strong> - Co-founded a startup focused on optimizing traffic flow by using computer vision within Yolov8-integrated cameras to stream real-time data into our back-end density calculating algorithms. Met with local governments and the NCDOT to learn what features and data would be most useful and which areas throughout the state needed to be addressed first.\nCheck us out at <a href='https://www.magnoliametrics.com' target='_blank'>magnoliametrics.com</a>"
         }
