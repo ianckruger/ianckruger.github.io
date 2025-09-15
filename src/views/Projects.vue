@@ -17,8 +17,9 @@
                 </template>
                 <template #content="slotProps">
                         <div class=project-card data-aos="fade-up">
-                            <h4> {{  slotProps.item.title }}</h4>
-                            <p> {{  slotProps.item.content }}</p>
+                            <h4 v-html="slotProps.item.title"></h4>
+                            <p v-html="slotProps.item.content"></p>
+
 
                             <div class="media-wrapper">
                                 <img v-if="slotProps.item.image"
@@ -100,7 +101,7 @@ function getImgUrl(img) {
   width: 2px;
   background: black; /* timeline bar color */
   margin-top: 20px;
-  height: 439px;
+  height: 470px;
 }
 
 
