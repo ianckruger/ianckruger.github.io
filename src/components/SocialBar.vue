@@ -16,6 +16,11 @@
                     <i class="bi bi-linkedin" />
                 </a>
             </li>
+            <li>
+                <a :href="links.google" target="_blank">
+                    <i class="bi bi-google" />
+                </a>
+            </li>
         </ul>
     </div>
 </template>
