@@ -3,6 +3,13 @@
     "description":"Explore my creations!",
     "projects": [
         {
+            "title": "<a href='https://github.com/ianckruger/charity-Water-Game' target='_blank'> Water Pollution Game</a>",
+            "date": "September 2025",
+            "content":"A JavaScript app I developed to help raise awareness for charity: Water by implementing my geography knowledge. Explore the THREE.js interactive globe and discover hotspots to learn more information.",
+            "image":"charityWater.png",
+            "tag":"JavaScript"
+        },
+        {
             "title":" <a href='https://github.com/ianckruger/DigitalCardBinder'target='_blank'>Digital Card Binder</a>",
             "date":"April 2025",
             "content":"A Kotlin Android app that allows users to digitally display their collection of trading cards. Users can add cards by taking pictures or searching a database, organize them into binders, and share their collections with friends.",
